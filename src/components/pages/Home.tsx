@@ -51,6 +51,7 @@ const HomePage = () => {
       {wallet.accounts.length > 0 && (
         <div>Wallet Accounts: {wallet.accounts[0]}</div>
       )}
+      <textarea style={{ width: "100%", textAlign: "center" }} />
     </div>
   );
 };
